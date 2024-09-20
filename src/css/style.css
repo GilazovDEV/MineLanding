@@ -1,0 +1,513 @@
+body {
+  font-family: "Inter";
+  margin: 0px;
+  padding: 0px;
+  color: #ffff;
+  background-color: #000000;
+}
+
+.img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../img/back.png");
+}
+
+/* NavBar */
+
+.bg-l1ght {
+  background-color: #18181d2d;
+}
+
+.navbar {
+}
+
+.navbar-toggler {
+  border: 1px solid #ffff;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(197, 197, 197)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0px 0px 0px #ffff;
+}
+
+.navbar-brand {
+  font-family: "Inter";
+  font-weight: bold;
+  font-size: 28px;
+  color: #ffff;
+  transition: all 0.1s;
+}
+
+.navbar-brand:hover {
+  color: #c5c5c5;
+  transition: all 0.1s;
+}
+
+.nav-item {
+  padding-left: 50px;
+}
+
+.nav-link {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  color: #c5c5c5;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+.head-icon {
+  padding: 0px;
+  margin: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-decoration: none;
+}
+
+.h-icon {
+  width: 30px;
+}
+
+/* Main */
+
+.main__box {
+  margin-top: 150px;
+}
+
+.main__box-title {
+  margin: 0px;
+}
+
+.main__container {
+  text-align: center;
+}
+
+.main__title {
+  margin: 0px;
+}
+
+.main-tit {
+  font-family: "Inter";
+  font-weight: 600;
+  margin: 0px;
+  font-size: 62px;
+}
+
+.main__text {
+  margin: 0px;
+}
+
+.main-txt {
+  font-family: "Inter";
+  font-weight: 400;
+  margin: 0px;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #757575;
+}
+
+.main_buttons {
+  margin: 0px;
+  margin-top: 30px;
+}
+
+.btn {
+  font-family: "Inter";
+  font-weight: 400;
+  border-radius: 10px;
+  padding: 0px;
+  margin: 0px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: none;
+  color: #ffff;
+  background: linear-gradient(45deg, #dc1111, #fd9638);
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  font-weight: 600;
+  background: #ffff;
+  color: #dc1111;
+  transition: all 0.3s;
+}
+
+.passage__box {
+}
+
+.passage__container {
+  margin-top: 200px;
+}
+
+.passage__main {
+  text-align: center;
+}
+
+.passage__title {
+  margin: 0px;
+}
+
+.pass-tit {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 48px;
+  margin: 0px;
+}
+
+.passage__text {
+  margin: 0px;
+}
+
+.pass-txt {
+  font-family: "Inter";
+  font-weight: 400;
+  margin: 0px;
+  color: #757575;
+}
+
+.passage__switch {
+  margin: 0px;
+}
+
+/* CARDS */
+
+.col {
+  display: flex;
+  justify-content: center;
+}
+
+.passage__cards {
+  margin: 0px;
+  margin-top: 100px;
+}
+
+.card-pass {
+  margin: 20px;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  background-color: #1f1f1f;
+  border-radius: 40px;
+}
+
+.card-pass-white {
+  padding: 40px;
+  margin: 20px;
+
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 40px;
+}
+
+.card__container-white {
+  color: #000000;
+  margin: 0px;
+}
+
+.price-white {
+  font-size: 44px;
+
+  color: #000000;
+  font-weight: bold;
+}
+
+.card__container {
+  color: #ffffff;
+
+  margin: 0px;
+}
+
+.card-title {
+  margin: 0px;
+  margin-bottom: 15px;
+}
+
+.card-tit {
+  font-family: "Inter";
+  margin: 0px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.card-text {
+  margin: 0px;
+  margin-bottom: 15px;
+}
+
+.card-txt {
+  color: #757575;
+  font-weight: 600;
+  font-family: "Inter";
+  margin: 0px;
+}
+
+.price {
+  color: #ffffff;
+  font-family: "Inter";
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.card-list {
+  margin: 0px;
+}
+
+.card-li {
+  font-weight: 600;
+  margin: 0px;
+  margin-bottom: 30px;
+}
+
+.c-li {
+  margin: 0px;
+  margin-bottom: 15px;
+}
+
+.card-button {
+  margin: 0px;
+  padding-top: 15px;
+}
+
+.card-btn {
+  margin: 0px;
+}
+
+.btn-c {
+  font-family: "Inter";
+  font-weight: 400;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: none;
+  color: #ffff;
+  background: linear-gradient(45deg, #dc1111, #fd9638);
+  transition: all 0.3s;
+}
+
+.btn-c:hover {
+  font-weight: 600;
+  background: #ffff;
+  color: #dc1111;
+  transition: all 0.3s;
+  border: 1px solid #757575;
+}
+
+/* CARDS END */
+
+/* Contact */
+
+.contact-main {
+  margin-top: 100px;
+}
+
+.contact-block-tit {
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 100px;
+}
+
+.contact-title {
+}
+
+.c-tit {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.contact-block-icon {
+}
+
+.contact-block {
+  text-align: center;
+}
+
+.contact-icon {
+}
+
+.contact-icon-txt {
+}
+
+.c-txt {
+  font-family: "Inter";
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 30px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.c-txt-link {
+  font-family: "Inter";
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 15px;
+  color: #757575;
+  letter-spacing: 4px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.icon {
+  width: 100px;
+}
+
+/* contact end */
+
+/* FOOTER */
+
+footer {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.footer {
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  align-self: center;
+}
+
+.footer-block {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #141414;
+}
+
+.footer-title {
+}
+
+.f-tit {
+  margin: 0px;
+  font-family: "Inter";
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.copy-block {
+}
+
+.copy-text {
+  padding: 0px;
+
+  padding-top: 25px;
+  margin: 0px;
+}
+
+.copy-txt {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  color: #757575;
+}
+
+.society-block {
+  padding: 0px;
+  margin: 0px;
+}
+
+.society-list {
+  padding: 0px;
+  margin: 0px;
+}
+
+.soc-ul {
+  padding: 0px;
+  margin: 0px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.soc-li {
+  padding: 0px;
+  margin: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  list-style: none;
+}
+
+.soc-icon {
+  width: 70px;
+}
+
+/* footer end */
+
+/* ADAPTATION */
+
+@media (max-width: 992px) {
+  .society-block {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-block-icon {
+    margin: 10px;
+  }
+
+  .footers {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-tit {
+    font-size: 48px;
+  }
+
+  .main-txt {
+    margin-top: 10px;
+  }
+
+  .pass-tit {
+    font-size: 36px;
+  }
+
+  .c-tit {
+    font-size: 38px;
+  }
+
+  .card-pass {
+    height: auto;
+  }
+
+  .card-pass-white {
+    height: auto;
+  }
+
+  .btn-c {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .icon {
+    width: 90px;
+  }
+}
