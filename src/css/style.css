@@ -4,12 +4,9 @@ body {
   padding: 0px;
   color: #ffff;
   background-color: #000000;
-}
-
-.img {
   background-repeat: no-repeat;
-  background-position: center;
   background-image: url("../img/back.png");
+  background-position-x: center;
 }
 
 /* NavBar */
@@ -49,6 +46,7 @@ body {
 }
 
 .nav-item {
+  list-style: none;
   padding-left: 50px;
 }
 
@@ -199,7 +197,6 @@ body {
   background-color: #1f1f1f;
   border-radius: 40px;
 }
-
 
 .card-pass-white {
   padding: 40px;
@@ -474,6 +471,11 @@ footer {
 @media (max-width: 768px) {
   .contact-block-icon {
     margin: 10px;
+  }
+
+  .head-icon {
+    padding-left: 50px;
+    padding-right: 0px;
   }
 
   .footers {
