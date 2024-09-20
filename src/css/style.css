@@ -200,6 +200,7 @@ body {
   border-radius: 40px;
 }
 
+
 .card-pass-white {
   padding: 40px;
   margin: 20px;
@@ -371,6 +372,12 @@ body {
 
 .icon {
   width: 100px;
+  transition: all 0.3s;
+}
+
+.icon:hover {
+  width: 110px;
+  transition: all 0.3s;
 }
 
 /* contact end */
