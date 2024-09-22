@@ -18,7 +18,7 @@ nav {
 /* NavBar */
 
 .bg-l1ght {
-  background-color: #18181d2d;
+  background-color: #18181d6c;
 }
 
 .navbar {
@@ -74,8 +74,8 @@ nav {
 .head-icon {
   padding: 0px;
   margin: 0px;
-  padding-left: 15px;
-  padding-right: 15px;
+  margin-left: 15px;
+
   text-decoration: none;
 }
 
