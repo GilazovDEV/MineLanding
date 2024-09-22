@@ -1,8 +1,8 @@
 window.addEventListener("scroll", function () {
   const hiddenElement = document.getElementById("hiddenElement");
-  if (window.scrollY > 40) {
-    hiddenElement.classList.add("hidden-background");
+  if (window.scrollY > 400) {
+    hiddenElement.classList.add("bg-l1ght");
   } else {
-    hiddenElement.classList.remove("hidden-background");
+    hiddenElement.classList.remove("bg-l1ght");
   }
 });

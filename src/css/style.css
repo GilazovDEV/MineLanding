@@ -13,19 +13,23 @@ body {
 }
 
 nav {
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 10px;
 }
 
 /* NavBar */
 
 .bg-l1ght {
-  background-color: #18181d6c;
+  background-color: #18181d56;
 }
 
 .navbar {
   position: sticky;
   top: 0;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .navbar-toggler {
