@@ -9,6 +9,9 @@ body {
   background-position-x: center;
 }
 
+nav {
+}
+
 /* NavBar */
 
 .bg-l1ght {
@@ -16,6 +19,10 @@ body {
 }
 
 .navbar {
+  position: sticky;
+  top: 0;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .navbar-toggler {
@@ -54,11 +61,11 @@ body {
   font-family: "Inter";
   font-weight: 400;
   font-size: 18px;
-  color: #c5c5c5;
+  color: #ffffff;
 }
 
 .nav-link:hover {
-  color: #ffffff;
+  color: #c5c5c5;
 }
 
 .head-icon {
@@ -184,6 +191,8 @@ body {
 }
 
 .passage__cards {
+  padding-left: 65px;
+  padding-right: 65px;
   margin: 0px;
   margin-top: 100px;
 }
@@ -296,14 +305,14 @@ body {
   border: none;
   color: #ffff;
   background: linear-gradient(45deg, #dc1111, #fd9638);
-  transition: all 0.3s;
+  transition: all 0.4s;
 }
 
 .btn-c:hover {
   font-weight: 600;
   background: #ffff;
   color: #dc1111;
-  transition: all 0.3s;
+  transition: all 0.4s;
   border: 1px solid #757575;
 }
 
@@ -368,12 +377,11 @@ body {
 }
 
 .icon {
-  width: 100px;
   transition: all 0.3s;
 }
 
 .icon:hover {
-  width: 110px;
+  transform: scale(1.2);
   transition: all 0.3s;
 }
 
