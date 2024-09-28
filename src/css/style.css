@@ -550,7 +550,13 @@ footer {
     padding-right: 50px;
   }
 
+  .nav-item {
+    padding: 0px;
+  }
+
   .head-icon {
+    padding: 0px;
+    padding-right: 25px;
     margin: 0px;
   }
 }
