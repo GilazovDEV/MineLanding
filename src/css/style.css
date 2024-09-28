@@ -507,6 +507,11 @@ footer {
   .society-block {
     display: none;
   }
+
+  .nv {
+    padding: 0px;
+  }
+
 }
 
 @media (max-width: 768px) {
