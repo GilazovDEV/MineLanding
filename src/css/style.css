@@ -14,15 +14,21 @@ body {
 
 nav {
   /* margin-top: 10px; */
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 12px;
+  margin-right: 12px;
   border-radius: 10px;
 }
 
 /* NavBar */
 
 .bg-l1ght {
-  background-color: #18181d56;
+  background-color: #14141478;
+  transition: all 0.3s;
+}
+
+.nv {
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .navbar {
@@ -409,7 +415,7 @@ footer {
 
 .footer-block {
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: #141414;
 }
 
@@ -428,9 +434,10 @@ footer {
 
 .copy-text {
   padding: 0px;
-
   padding-top: 12.5px;
   margin: 0px;
+  display: flex;
+  flex-direction: column;
 }
 
 .copy-txt {
@@ -440,6 +447,12 @@ footer {
   font-weight: 400;
   font-size: 18px;
   color: #757575;
+  text-decoration: none;
+}
+
+.copy-txt:hover {
+  color: #c5c5c5;
+  transition: 0.3s;
 }
 
 .society-block {
@@ -457,7 +470,7 @@ footer {
   margin: 0px;
 
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .soc-li {
