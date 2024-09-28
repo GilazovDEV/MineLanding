@@ -540,6 +540,11 @@ footer {
     margin: 0px;
     padding: 0px;
   }
+
+  .navbar {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
 
 @media (max-width: 576px) {
