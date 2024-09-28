@@ -23,12 +23,11 @@ body {
   transform: translateY(0%);
 }
 
-
 .hidden-background {
 }
 
 nav {
-  /* margin-top: 10px; */
+  z-index: 1;
   margin-left: 12px;
   margin-right: 12px;
   border-radius: 10px;
@@ -523,6 +522,23 @@ footer {
   .footers {
     display: flex;
     flex-direction: column;
+  }
+
+  .nv {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+  }
+
+  .passage__cards {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+  }
+
+  nav {
+    margin: 0px;
+    padding: 0px;
   }
 }
 
