@@ -147,9 +147,9 @@ nav {
 }
 
 .btn:hover {
-  font-weight: 600;
-  background: #ffff;
-  color: #dc1111;
+  transform: scale(1.03);
+  background: linear-gradient(5deg, #dc1111, #fd9638);
+  color: #ffff;
   transition: all 0.3s;
 }
 
@@ -316,11 +316,10 @@ nav {
 }
 
 .btn-c:hover {
-  font-weight: 600;
-  background: #ffff;
-  color: #dc1111;
+  transform: scale(1.03);
+  background: linear-gradient(5deg, #dc1111, #fd9638);
+  color: #ffff;
   transition: all 0.4s;
-  border: 1px solid #757575;
 }
 
 /* CARDS END */
